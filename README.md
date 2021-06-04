@@ -34,3 +34,11 @@ log file: /home/suhu/.ros/log/8be1dc26-bf97-11eb-b52f-3c7c3f511c73/rqt_gui_corne
 $ roslaunch arc_star_ros arc_star.launch
 $ rosbag play shapes_6dof.bag
 ```
+
+## Fa-Harris [code](https://github.com/ruoxianglee/fa_harris)
+
+**How to run it**
+```sh
+$ roslaunch fa_harris corner.launch
+$ roslaunch fa_harris corner.launch rosbag_flag:=1 rosbag_path=/path/to/ros_bag.bag
+```
